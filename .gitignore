@@ -1,0 +1,25 @@
+# 인증정보·개인 설정
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.codex/
+.agents/
+.aws/
+node_modules/
+
+# 로컬 브라우저 점검 전용 파일
+결과/브라우저임시/
+결과/브라우저점검.cjs
+결과/검증결과.json
+결과/앱화면_점검.png
+결과/기능점검.md
+결과/점검용*
+결과/인쇄점검.pdf
+결과/배포상태.md
+
+# 운영체제 임시파일
+Thumbs.db
+.DS_Store
+*.tmp
